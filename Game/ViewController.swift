@@ -17,8 +17,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
      super.viewDidLoad()
      configureSongs()
-        table.delegate = self
-        table.dataSource = self
+        table?.delegate = self
+        table?.dataSource = self
    
     }
     
@@ -28,7 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           albumName: "Sour",
                           artistName: "Olivia Rodrigo",
                           imageName: "cover1",
-                          trackName: "s"))
+                          trackName: "brutal.mp3"))
 
         
         
