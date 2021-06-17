@@ -1,6 +1,5 @@
-//
+
 //  PlayerViewController.swift
-//  MyMusic
 import AVFoundation
 import UIKit
 
@@ -80,10 +79,10 @@ class PlayerViewController: UIViewController {
             player.play()
         }
         catch {
-            print("error occurred")
+            print("not playing")
         }
 
-        // set up user interface elements
+        
         // album cover
         albumImageView.frame = CGRect(x: 10,
                                       y: 10,
@@ -147,15 +146,15 @@ class PlayerViewController: UIViewController {
         backButton.setBackgroundImage(UIImage(systemName: "backward.fill"), for: .normal)
         nextButton.setBackgroundImage(UIImage(systemName: "forward.fill"), for: .normal)
 
-        playPauseButton.tintColor = .black
-        backButton.tintColor = .black
-        nextButton.tintColor = .black
+        playPauseButton.tintColor = .systemPink
+        backButton.tintColor = .systemPink
+        nextButton.tintColor = .systemPink
 
         holder.addSubview(playPauseButton)
         holder.addSubview(nextButton)
         holder.addSubview(backButton)
 
-        // slider
+        
         let slider = UISlider(frame: CGRect(x: 20,
                                             y: holder.frame.size.height-60,
                                             width: holder.frame.size.width-40,
