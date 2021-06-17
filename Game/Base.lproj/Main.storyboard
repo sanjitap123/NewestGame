@@ -27,6 +27,9 @@
                                 <rect key="frame" x="31" y="70" width="78" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home-1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="XfZ-uX-NYP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LRz-9F-Iwc"/>
@@ -35,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H6E-UP-fAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562.31884057971024" y="-570.53571428571422"/>
+            <point key="canvasLocation" x="-555" y="-581"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d61-eT-YNr">
@@ -55,7 +58,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNw-fm-7Aq">
                                 <rect key="frame" x="31" y="78" width="78" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="home"/>
+                                <state key="normal" title="Button" image="home-1"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="fpm-SA-F30"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nLg-MC-IAj"/>
@@ -64,7 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7uw-bE-4vi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123" y="-1220"/>
+            <point key="canvasLocation" x="108.69565217391305" y="-1217.4107142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y23-GW-07z">
@@ -126,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OnR-vv-eUv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="826" y="-564"/>
+            <point key="canvasLocation" x="846" y="-581"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pxu-zw-sqd">
@@ -155,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fiL-6k-9Ci" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1932" y="123"/>
+            <point key="canvasLocation" x="-1933" y="98"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MUz-jU-1hi">
@@ -184,7 +190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHD-ek-FRj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1246" y="107"/>
+            <point key="canvasLocation" x="-1232" y="98"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="H8p-W4-IGH">
@@ -260,15 +266,10 @@
                                     <segue destination="qfa-s5-2kG" kind="show" id="QPf-XE-mPt"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FkH-aQ-5nL">
-                                <rect key="frame" x="87" y="178" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-1" translatesAutoresizingMaskIntoConstraints="NO" id="FkH-aQ-5nL">
+                                <rect key="frame" x="20" y="30" width="87" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmG-4o-hm9">
-                                <rect key="frame" x="22" y="56" width="78" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="home-1"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.8784313725490196" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -336,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dR5-pa-9dV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="1375"/>
+            <point key="canvasLocation" x="138" y="1373"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="g7R-Zw-eBD">
@@ -365,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhl-QR-uQy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="111" y="2022"/>
+            <point key="canvasLocation" x="138" y="2020"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Rc-7u-RtA">
@@ -424,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fLg-sv-gqD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1536" y="99"/>
+            <point key="canvasLocation" x="1545" y="78"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="i8m-NH-gkR">
@@ -453,11 +454,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXw-GX-kCX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2206" y="106"/>
+            <point key="canvasLocation" x="2206" y="78"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XfZ-uX-NYP"/>
+    </inferredMetricsTieBreakers>
     <resources>
-        <image name="home" width="512" height="512"/>
         <image name="home-1" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
