@@ -24,11 +24,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func configureSongs() {
         
-        songs.append(Song(name: "Background music",
+        songs.append(Song(name: "Brutal",
                           albumName: "Sour",
                           artistName: "Olivia Rodrigo",
                           imageName: "cover1",
-                          trackName: "brutal.mp3"))
+                          trackName: "brutal"))
 
         
         
