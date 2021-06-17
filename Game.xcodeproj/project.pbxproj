@@ -13,6 +13,7 @@
 		74FA5E08267AE02B00E6B748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FA5E06267AE02B00E6B748 /* Main.storyboard */; };
 		74FA5E0A267AE03000E6B748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FA5E09267AE03000E6B748 /* Assets.xcassets */; };
 		74FA5E0D267AE03000E6B748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FA5E0B267AE03000E6B748 /* LaunchScreen.storyboard */; };
+		9D3AF5F6267B9F18007F18BA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3AF5F5267B9F18007F18BA /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		74FA5E09267AE03000E6B748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74FA5E0C267AE03000E6B748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74FA5E0E267AE03000E6B748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3AF5F5267B9F18007F18BA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				74FA5E09267AE03000E6B748 /* Assets.xcassets */,
 				74FA5E0B267AE03000E6B748 /* LaunchScreen.storyboard */,
 				74FA5E0E267AE03000E6B748 /* Info.plist */,
+				9D3AF5F5267B9F18007F18BA /* PlayerViewController.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74FA5E05267AE02B00E6B748 /* ViewController.swift in Sources */,
+				9D3AF5F6267B9F18007F18BA /* PlayerViewController.swift in Sources */,
 				74FA5E01267AE02B00E6B748 /* AppDelegate.swift in Sources */,
 				74FA5E03267AE02B00E6B748 /* SceneDelegate.swift in Sources */,
 			);
