@@ -608,6 +608,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="home-1"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I'm glad you're happy heres resources to help keep you happy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cw-VQ-zXd">
+                                <rect key="frame" x="10" y="122" width="394" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zLJ-XO-lCQ"/>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.8784313725490196" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -616,7 +623,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dID-zV-SpJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="958" y="120"/>
+            <point key="canvasLocation" x="957.97101449275374" y="119.86607142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XiQ-zY-CXh">
@@ -745,7 +752,7 @@
         <segue reference="EKa-Eg-zfb"/>
         <segue reference="ERj-fn-TjH"/>
         <segue reference="KK9-Kd-sMu"/>
-        <segue reference="xRL-oj-fci"/>
+        <segue reference="eO4-wI-oGm"/>
         <segue reference="zZC-br-oVy"/>
         <segue reference="33Z-cA-2sf"/>
     </inferredMetricsTieBreakers>
