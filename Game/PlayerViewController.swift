@@ -11,7 +11,7 @@ class PlayerViewController: UIViewController {
     @IBOutlet var holder: UIView!
 
     var player: AVAudioPlayer?
-
+    
     // User Interface elements
     private let albumImageView: UIImageView = {
         let imageView = UIImageView()
@@ -83,7 +83,7 @@ class PlayerViewController: UIViewController {
         }
 
         
-        // album cover
+        
         albumImageView.frame = CGRect(x: 10,
                                       y: 10,
                                       width: holder.frame.size.width-20,
@@ -91,16 +91,16 @@ class PlayerViewController: UIViewController {
         albumImageView.image = UIImage(named: song.imageName)
         holder.addSubview(albumImageView)
 
-        // Labels: Song name, album, artist
-        songNameLabel.frame = CGRect(x: 10,
+        
+        songNameLabel.frame = CGRect(x: 20,
                                      y: albumImageView.frame.size.height + 10,
                                      width: holder.frame.size.width-20,
                                      height: 70)
-        albumNameLabel.frame = CGRect(x: 10,
+        albumNameLabel.frame = CGRect(x: 20,
                                      y: albumImageView.frame.size.height + 10 + 70,
                                      width: holder.frame.size.width-20,
                                      height: 70)
-        artistNameLabel.frame = CGRect(x: 10,
+        artistNameLabel.frame = CGRect(x: 20,
                                        y: albumImageView.frame.size.height + 10 + 140,
                                        width: holder.frame.size.width-20,
                                        height: 70)
@@ -193,7 +193,7 @@ class PlayerViewController: UIViewController {
             // show play button
             playPauseButton.setBackgroundImage(UIImage(systemName: "play.fill"), for: .normal)
 
-            // shrink image
+            // shrink the image when you forword
             UIView.animate(withDuration: 0.2, animations: {
                 self.albumImageView.frame = CGRect(x: 30,
                                                    y: 30,
@@ -206,7 +206,7 @@ class PlayerViewController: UIViewController {
             player?.play()
             playPauseButton.setBackgroundImage(UIImage(systemName: "pause.fill"), for: .normal)
 
-            // increase image size
+            
             UIView.animate(withDuration: 0.2, animations: {
                 self.albumImageView.frame = CGRect(x: 10,
                                               y: 10,

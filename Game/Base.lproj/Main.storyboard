@@ -216,7 +216,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TwL-qV-z3y">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.87843137250000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="mN5-Wv-irZ" detailTextLabel="6He-6n-Yju" style="IBUITableViewCellStyleSubtitle" id="5ld-uu-CdM">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
@@ -241,6 +241,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.87843137250000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -254,7 +255,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ShY-d7-M3i"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.87843137250000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="TwL-qV-z3y" firstAttribute="leading" secondItem="ShY-d7-M3i" secondAttribute="leading" id="Bh2-fS-hJG"/>
                             <constraint firstItem="ShY-d7-M3i" firstAttribute="bottom" secondItem="TwL-qV-z3y" secondAttribute="bottom" id="ZTs-ea-04U"/>
