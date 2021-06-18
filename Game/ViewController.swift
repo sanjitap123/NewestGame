@@ -49,7 +49,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           artistName: "Harry Styles",
                           imageName: "cover4",
                           trackName: "Harry"))
-        
         songs.append(Song(name: "traitor",
                           albumName: "Sour",
                           artistName: "Olivia Rodrigo",
@@ -65,6 +64,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           artistName: "Justin Timberlake",
                           imageName: "cover9",
                           trackName: "justin"))
+        songs.append(Song(name: "Super Bass",
+                          albumName: "Pink Friday",
+                          artistName: "Nicki Minaj",
+                          imageName: "cover6",
+                          trackName: "bass"))
+        songs.append(Song(name: "The weekend (funk wav remix)",
+                          albumName: "Ctrl",
+                          artistName: "SZA x Calvin Harris",
+                          imageName: "cover10",
+                          trackName: "weeknd"))
+        
         
         
         
