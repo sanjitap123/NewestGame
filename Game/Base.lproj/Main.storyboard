@@ -618,13 +618,22 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="gGD-bK-Iql"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="READ ME!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oah-Uo-wmO">
-                                <rect key="frame" x="84" y="127" width="247" height="60"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quote1" translatesAutoresizingMaskIntoConstraints="NO" id="x93-1E-aFR">
+                                <rect key="frame" x="20" y="108" width="374" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quote3" translatesAutoresizingMaskIntoConstraints="NO" id="Ogo-q2-dkK">
+                                <rect key="frame" x="160" y="327" width="234" height="462"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quote2" translatesAutoresizingMaskIntoConstraints="NO" id="xJd-yA-8Ty">
+                                <rect key="frame" x="6" y="363" width="152" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quote4" translatesAutoresizingMaskIntoConstraints="NO" id="dqG-Tm-Gal">
+                                <rect key="frame" x="6" y="547" width="150" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tJC-zo-dGk"/>
                         <color key="backgroundColor" red="0.98039215690000003" green="0.87843137250000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -633,7 +642,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhl-QR-uQy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="2020"/>
+            <point key="canvasLocation" x="131.8840579710145" y="1406.9196428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Rc-7u-RtA">
@@ -675,7 +684,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6Oh-AW-SUV" kind="show" id="kVm-2O-CqS"/>
+                                    <segue destination="YRI-6r-zq8" kind="show" id="CrV-aG-KrL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I'm glad you're happy here's resources to help keep you happy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cw-VQ-zXd">
@@ -700,7 +709,7 @@
             <objects>
                 <viewController id="6Oh-AW-SUV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kGV-xv-E7j">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPe-BA-xqD">
@@ -788,14 +797,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="w2U-Kb-jUn"/>
-        <segue reference="CUA-qN-esI"/>
-        <segue reference="zZC-br-oVy"/>
+        <segue reference="CrV-aG-KrL"/>
+        <segue reference="gGD-bK-Iql"/>
+        <segue reference="p7e-Kd-CXm"/>
         <segue reference="f2W-3d-Xue"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-06-17 at 10.42.33 AM" width="866" height="290"/>
         <image name="home-1" width="512" height="512"/>
+        <image name="quote1" width="1920" height="1080"/>
+        <image name="quote2" width="1080" height="1080"/>
+        <image name="quote3" width="1080" height="1920"/>
+        <image name="quote4" width="1080" height="1080"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
