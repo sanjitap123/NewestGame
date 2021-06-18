@@ -37,13 +37,34 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         songs.append(Song(name: "Night Changes",
                           albumName: "Four",
                           artistName: "One Direction",
-                          imageName: "cover3",
+                          imageName: "cover2",
                           trackName: "nightchanges"))
         songs.append(Song(name: "8TEEN",
                           albumName: "American Teen",
                           artistName: "Khalid",
-                          imageName: "cover5",
+                          imageName: "cover3",
                           trackName: "8TEEN"))
+        songs.append(Song(name: "Golden",
+                          albumName: "Fine Line",
+                          artistName: "Harry Styles",
+                          imageName: "cover4",
+                          trackName: "Harry"))
+        songs.append(Song(name: "High heels",
+                          albumName: "Mad Love",
+                          artistName: "Jojo",
+                          imageName: "cover5",
+                          trackName: "jojo"))
+        songs.append(Song(name: "Shout out to my Ex",
+                          albumName: "Glory Days",
+                          artistName: "Little Mix",
+                          imageName: "cover6",
+                          trackName: "littlem"))
+        songs.append(Song(name: "She's so Gone",
+                          albumName: "Lemonade Mouth",
+                          artistName: "Lemonade Mouth",
+                          imageName: "cover7",
+                          trackName: "She's So Gone"))
+        
         
         
 
