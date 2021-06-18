@@ -49,16 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           artistName: "Harry Styles",
                           imageName: "cover4",
                           trackName: "Harry"))
-        songs.append(Song(name: "High heels",
-                          albumName: "Mad Love",
-                          artistName: "Jojo",
-                          imageName: "cover5",
-                          trackName: "jojo"))
-        songs.append(Song(name: "She's so Gone",
-                          albumName: "Lemonade Mouth",
-                          artistName: "Lemonade Mouth",
-                          imageName: "cover7",
-                          trackName: "She's So Gone"))
+        
         songs.append(Song(name: "traitor",
                           albumName: "Sour",
                           artistName: "Olivia Rodrigo",

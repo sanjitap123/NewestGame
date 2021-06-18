@@ -1,5 +1,5 @@
 
-//  PlayerViewController.swift
+//
 import AVFoundation
 import UIKit
 
@@ -11,7 +11,7 @@ class PlayerViewController: UIViewController {
     @IBOutlet var holder: UIView!
 
     var player: AVAudioPlayer?
-    
+
     // User Interface elements
     private let albumImageView: UIImageView = {
         let imageView = UIImageView()
@@ -67,8 +67,8 @@ class PlayerViewController: UIViewController {
                 print("urlstring is nil")
                 return
             }
+
             player = try AVAudioPlayer(contentsOf: URL(string: urlString)!)
-            
 
             guard let player = player else {
                 print("player is nil")
@@ -79,11 +79,11 @@ class PlayerViewController: UIViewController {
             player.play()
         }
         catch {
-            print("not playing")
+            print("error occurred")
         }
 
-        
-        
+        // set up user interface elements
+        // album cover
         albumImageView.frame = CGRect(x: 10,
                                       y: 10,
                                       width: holder.frame.size.width-20,
@@ -91,16 +91,16 @@ class PlayerViewController: UIViewController {
         albumImageView.image = UIImage(named: song.imageName)
         holder.addSubview(albumImageView)
 
-        
-        songNameLabel.frame = CGRect(x: 20,
+        // Labels: Song name, album, artist
+        songNameLabel.frame = CGRect(x: 10,
                                      y: albumImageView.frame.size.height + 10,
                                      width: holder.frame.size.width-20,
                                      height: 70)
-        albumNameLabel.frame = CGRect(x: 20,
+        albumNameLabel.frame = CGRect(x: 10,
                                      y: albumImageView.frame.size.height + 10 + 70,
                                      width: holder.frame.size.width-20,
                                      height: 70)
-        artistNameLabel.frame = CGRect(x: 20,
+        artistNameLabel.frame = CGRect(x: 10,
                                        y: albumImageView.frame.size.height + 10 + 140,
                                        width: holder.frame.size.width-20,
                                        height: 70)
@@ -154,7 +154,7 @@ class PlayerViewController: UIViewController {
         holder.addSubview(nextButton)
         holder.addSubview(backButton)
 
-        
+        // slider
         let slider = UISlider(frame: CGRect(x: 20,
                                             y: holder.frame.size.height-60,
                                             width: holder.frame.size.width-40,
@@ -193,7 +193,7 @@ class PlayerViewController: UIViewController {
             // show play button
             playPauseButton.setBackgroundImage(UIImage(systemName: "play.fill"), for: .normal)
 
-            // shrink the image when you forword
+            // shrink image
             UIView.animate(withDuration: 0.2, animations: {
                 self.albumImageView.frame = CGRect(x: 30,
                                                    y: 30,
@@ -206,7 +206,7 @@ class PlayerViewController: UIViewController {
             player?.play()
             playPauseButton.setBackgroundImage(UIImage(systemName: "pause.fill"), for: .normal)
 
-            
+            // increase image size
             UIView.animate(withDuration: 0.2, animations: {
                 self.albumImageView.frame = CGRect(x: 10,
                                               y: 10,
@@ -229,4 +229,3 @@ class PlayerViewController: UIViewController {
     }
 
 }
-
