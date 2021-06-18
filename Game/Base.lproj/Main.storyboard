@@ -211,11 +211,11 @@
             <objects>
                 <viewController id="qfa-s5-2kG" customClass="ViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZQU-NB-Axz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TwL-qV-z3y">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.87843137250000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="mN5-Wv-irZ" detailTextLabel="6He-6n-Yju" style="IBUITableViewCellStyleSubtitle" id="5ld-uu-CdM">
@@ -400,36 +400,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133" y="105"/>
-        </scene>
-        <!--Player View Controller-->
-        <scene sceneID="dvl-gg-1gS">
-            <objects>
-                <viewController storyboardIdentifier="player" id="OMq-2T-W4j" customClass="PlayerViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RK2-ac-fbS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gt6-zQ-2bd">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.87843137250000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="eX3-RG-ezQ"/>
-                        <color key="backgroundColor" red="0.98039215690000003" green="0.87843137250000003" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="eX3-RG-ezQ" firstAttribute="trailing" secondItem="gt6-zQ-2bd" secondAttribute="trailing" id="9nx-3K-dCu"/>
-                            <constraint firstItem="eX3-RG-ezQ" firstAttribute="bottom" secondItem="gt6-zQ-2bd" secondAttribute="bottom" id="H1A-Vy-jaw"/>
-                            <constraint firstItem="gt6-zQ-2bd" firstAttribute="top" secondItem="eX3-RG-ezQ" secondAttribute="top" id="Iyv-Y2-pyq"/>
-                            <constraint firstItem="gt6-zQ-2bd" firstAttribute="leading" secondItem="eX3-RG-ezQ" secondAttribute="leading" id="yiD-U3-38i"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="holder" destination="gt6-zQ-2bd" id="P6Q-f8-0b2"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3Hn-Xh-eNI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-837" y="765"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jGt-QN-Th9">
@@ -778,10 +748,10 @@
             </objects>
             <point key="canvasLocation" x="2660.8695652173915" y="119.86607142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Player View Controller-->
         <scene sceneID="lgz-RK-G4E">
             <objects>
-                <viewController id="HZx-hn-SPo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="player" id="HZx-hn-SPo" customClass="PlayerViewController" customModule="Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f5e-Pr-x4d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -815,12 +785,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="c6J-nq-S7g"/>
+        <segue reference="62E-x3-Yja"/>
         <segue reference="EKa-Eg-zfb"/>
         <segue reference="mXK-Zq-QgF"/>
         <segue reference="AdC-d9-ccR"/>
-        <segue reference="krn-cL-tFT"/>
-        <segue reference="zZC-br-oVy"/>
+        <segue reference="dwm-9V-6qR"/>
+        <segue reference="VAz-oA-nYy"/>
         <segue reference="33Z-cA-2sf"/>
     </inferredMetricsTieBreakers>
     <resources>

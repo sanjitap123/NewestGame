@@ -67,8 +67,8 @@ class PlayerViewController: UIViewController {
                 print("urlstring is nil")
                 return
             }
-
             player = try AVAudioPlayer(contentsOf: URL(string: urlString)!)
+            
 
             guard let player = player else {
                 print("player is nil")

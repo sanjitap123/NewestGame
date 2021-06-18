@@ -54,7 +54,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           artistName: "Jojo",
                           imageName: "cover5",
                           trackName: "jojo"))
-        
         songs.append(Song(name: "She's so Gone",
                           albumName: "Lemonade Mouth",
                           artistName: "Lemonade Mouth",
