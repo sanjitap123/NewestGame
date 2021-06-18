@@ -74,6 +74,26 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           artistName: "SZA x Calvin Harris",
                           imageName: "cover10",
                           trackName: "weeknd"))
+        songs.append(Song(name: "What makes you beautiful",
+                          albumName: "Up all night",
+                          artistName: "One Direction",
+                          imageName: "cover11",
+                          trackName: "direction"))
+        songs.append(Song(name: "She's kinda hot",
+                          albumName: "Sounds Good Feels Good",
+                          artistName: "5 SOS",
+                          imageName: "cover12",
+                          trackName: "sos"))
+        songs.append(Song(name: "Determinate",
+                          albumName: "Lemonade Mouth",
+                          artistName: "Lemonade Mouth",
+                          imageName: "cover7",
+                          trackName: "mouth"))
+        songs.append(Song(name: "Dancing in the Dark",
+                          albumName: "Home",
+                          artistName: "Rihanna",
+                          imageName: "cover13",
+                          trackName: "dark"))
         
         
         
