@@ -1,4 +1,4 @@
-//
+//Hellooo
 //  ViewController.swift
 //  Brain Break Project
 //testtt
@@ -39,6 +39,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           artistName: "One Direction",
                           imageName: "cover3",
                           trackName: "nightchanges"))
+        songs.append(Song(name: "8TEEN",
+                          albumName: "American Teen",
+                          artistName: "Khalid",
+                          imageName: "cover5",
+                          trackName: "8TEEN"))
+        
         
 
         
