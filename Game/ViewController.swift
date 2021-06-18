@@ -54,16 +54,28 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                           artistName: "Jojo",
                           imageName: "cover5",
                           trackName: "jojo"))
-        songs.append(Song(name: "Shout out to my Ex",
-                          albumName: "Glory Days",
-                          artistName: "Little Mix",
-                          imageName: "cover6",
-                          trackName: "littlem"))
+        
         songs.append(Song(name: "She's so Gone",
                           albumName: "Lemonade Mouth",
                           artistName: "Lemonade Mouth",
                           imageName: "cover7",
                           trackName: "She's So Gone"))
+        songs.append(Song(name: "traitor",
+                          albumName: "Sour",
+                          artistName: "Olivia Rodrigo",
+                          imageName: "cover1",
+                          trackName: "traitor"))
+        songs.append(Song(name: "You belong with Me",
+                          albumName: "Fearless",
+                          artistName: "Taylor Swift",
+                          imageName: "cover8",
+                          trackName: "taylor"))
+        songs.append(Song(name: "Rock your body",
+                          albumName: "Justified",
+                          artistName: "Justin Timberlake",
+                          imageName: "cover9",
+                          trackName: "justin"))
+        
         
         
         

@@ -20,8 +20,10 @@
 		9D573482267C4DBF0089D972 /* 8TEEN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D573481267C4DBF0089D972 /* 8TEEN.mp3 */; };
 		9D573484267C4EBB0089D972 /* Harry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D573483267C4EBB0089D972 /* Harry.mp3 */; };
 		9D573486267C4F4A0089D972 /* jojo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D573485267C4F4A0089D972 /* jojo.mp3 */; };
-		9D573488267C4FB70089D972 /* littlem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D573487267C4FB70089D972 /* littlem.mp3 */; };
 		9D57348A267C50240089D972 /* She's So Gone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D573489267C50240089D972 /* She's So Gone.mp3 */; };
+		9D57348C267C50EF0089D972 /* traitor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D57348B267C50EF0089D972 /* traitor.mp3 */; };
+		9D57348E267C51A40089D972 /* taylor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D57348D267C51A40089D972 /* taylor.mp3 */; };
+		9D573490267C523C0089D972 /* justin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9D57348F267C523C0089D972 /* justin.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +42,10 @@
 		9D573481267C4DBF0089D972 /* 8TEEN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8TEEN.mp3; sourceTree = "<group>"; };
 		9D573483267C4EBB0089D972 /* Harry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Harry.mp3; sourceTree = "<group>"; };
 		9D573485267C4F4A0089D972 /* jojo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jojo.mp3; sourceTree = "<group>"; };
-		9D573487267C4FB70089D972 /* littlem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = littlem.mp3; sourceTree = "<group>"; };
 		9D573489267C50240089D972 /* She's So Gone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "She's So Gone.mp3"; sourceTree = "<group>"; };
+		9D57348B267C50EF0089D972 /* traitor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = traitor.mp3; sourceTree = "<group>"; };
+		9D57348D267C51A40089D972 /* taylor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taylor.mp3; sourceTree = "<group>"; };
+		9D57348F267C523C0089D972 /* justin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = justin.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 				9D573481267C4DBF0089D972 /* 8TEEN.mp3 */,
 				9D573483267C4EBB0089D972 /* Harry.mp3 */,
 				9D573485267C4F4A0089D972 /* jojo.mp3 */,
-				9D573487267C4FB70089D972 /* littlem.mp3 */,
 				9D573489267C50240089D972 /* She's So Gone.mp3 */,
+				9D57348B267C50EF0089D972 /* traitor.mp3 */,
+				9D57348D267C51A40089D972 /* taylor.mp3 */,
+				9D57348F267C523C0089D972 /* justin.mp3 */,
 			);
 			path = audio;
 			sourceTree = "<group>";
@@ -160,11 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D573486267C4F4A0089D972 /* jojo.mp3 in Resources */,
+				9D57348C267C50EF0089D972 /* traitor.mp3 in Resources */,
 				9D57348A267C50240089D972 /* She's So Gone.mp3 in Resources */,
 				9D573484267C4EBB0089D972 /* Harry.mp3 in Resources */,
 				74FA5E0D267AE03000E6B748 /* LaunchScreen.storyboard in Resources */,
 				74FA5E0A267AE03000E6B748 /* Assets.xcassets in Resources */,
-				9D573488267C4FB70089D972 /* littlem.mp3 in Resources */,
+				9D573490267C523C0089D972 /* justin.mp3 in Resources */,
+				9D57348E267C51A40089D972 /* taylor.mp3 in Resources */,
 				9D3AF5F9267BB019007F18BA /* brutal.mp3 in Resources */,
 				9D573466267BFD9A0089D972 /* nightchanges.mp3 in Resources */,
 				9D573464267BF6D80089D972 /* stockholm.mp3 in Resources */,
